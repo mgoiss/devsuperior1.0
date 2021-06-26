@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "front-mobile",
-    "slug": "front-mobile",
-    "version": "1.0.0",
+    "name": "Big Game Survey",
+    "slug": "Big-Game-Survey",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0b1f34"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,10 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vobidu.biggamesurvey"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android" : {
+      "package": "com.vobidu.biggamesurvey"
     }
   }
 }
